@@ -3,13 +3,9 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import pages.SauceLabHomePage;
 
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 public class SauceLabHomeDefs {
 
