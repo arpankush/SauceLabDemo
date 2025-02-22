@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@Regression and not @SmokeTest"
+        tags = "@APITest"
 )
 
 public class TestRunner {
